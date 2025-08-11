@@ -59,7 +59,8 @@
 <template>
   <B24App>
     <B24Container>
-      <B24Tabs :items="items" class="gap-4 w-full" color="primary" size="xl">
+      success
+      <!-- <B24Tabs :items="items" class="gap-4 w-full" color="primary" size="xl">
         <template #main="{ item }">
           <B24Alert title="Информация не найдена!" size="sm" color="primary" :icon=SearchIcon />
         </template>
@@ -72,7 +73,7 @@
       </B24Tabs>
       <B24Container class="save-button-container">
         <B24Button class="save-button" color="primary" @click="showToast('save-fail', 'Сбой подключения к серверу Битрикс24')">Сохранить</B24Button>
-      </B24Container>
+      </B24Container> -->
     </B24Container>
     <NuxtPage />
   </B24App>
