@@ -11,5 +11,6 @@ export default defineNuxtConfig({
     }
   },
   modules: ['@bitrix24/b24ui-nuxt'],
+  plugins: ['~/assets/plugins/bx24.js'],
   css: ['~/assets/css/main.css']
 })
